@@ -1,0 +1,135 @@
+:root {
+    --bg-color: #fcfcfc;
+    --primary-color: #ffad12;
+    --light-primary-color: #FABF43;
+    --secoundry-color: #989898;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'gess-light', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'gess-bold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a,
+.btn {
+    font-family: 'gess-medium', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: var(--primary-color);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--secoundry-color);
+}
+
+.mw-340 {
+    max-width: 340px;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.top {
+    top: 0;
+}
+
+.btn-primary {
+    padding: 5px 15px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 0 6px 10px 0 var(--light-primary-color);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 0 3px 5px 0 var(--light-primary-color);
+}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem var(--light-primary-color);
+}
+
+.h-80vh {
+    min-height: 80vh;
+}
+
+.btn-enter {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 5px 20px !important;
+}
+
+
+.navbar .navbar-brand image {
+    width: 120px;
+}
+
+.navbar .navbar-nav img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: var(--primary-color);
+}
+
+
+.landing-page {
+    padding-top: 40px;
+}
+
+.landing-page .intro-data h2 {
+    padding-bottom: 40px;
+    color: #515C6E;
+}
+
+
+.landing-page .intro-data p {
+    color: #A7A7A7;
+    padding-bottom: 30px;
+}
+
+
+.landing-page .intro-data form input[type="search"] {
+    width: 70%;
+    border-radius: 15px;
+    margin-right: -4px !important;
+    color: #A7A7A7;
+    z-index: 99;
+}
+
+.landing-page .intro-data form button {
+    z-index: 9999;
+    padding: 6px;
+}

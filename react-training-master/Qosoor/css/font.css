@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "gess-bold";
+    src: url(../font/ge-ss-two-bold.ttf);
+}
+
+@font-face {
+    font-family: "gess-medium";
+    src: url(../font/ge-ss-text-medium.ttf);
+}
+
+@font-face {
+    font-family: "gess-light";
+    src: url(../font/ge-ss-text-light.ttf);
+}

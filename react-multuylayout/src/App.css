@@ -1,0 +1,15 @@
+div ul {
+  display: flex;
+  background-color: #000;
+  padding: 10px;
+}
+
+div ul li {
+  margin-left: 10px;
+  list-style-type: none;
+}
+
+div ul li a {
+  color: #fff !important;
+  text-decoration: none;
+}
